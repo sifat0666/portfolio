@@ -1,0 +1,12 @@
+Progress: resolved 0, reused 1, downloaded 0, added 0
+Progress: resolved 163, reused 136, downloaded 0, added 0
+Packages: +1 -2
++--
+Progress: resolved 411, reused 399, downloaded 0, added 0
+
+dependencies:
+- @chakra-ui/icons 2.0.4
++ @chakra-ui/icons 2.0.4
++ @chakra-ui/system 2.2.2
+
+Progress: resolved 411, reused 399, downloaded 0, added 1, done
