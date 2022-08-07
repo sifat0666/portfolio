@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { Router } from 'next/router'
 import React, { ReactNode } from 'react'
 import Navbar from '../Navbar'
+import VoxelDog from '../Animation'
 // import Navbar from '../Navbar'
 
 const Main = ({children, router}: {
@@ -18,6 +19,7 @@ const Main = ({children, router}: {
            </Head>
            <Navbar path={router.asPath}/>
            {/* <div>navbark</div> */}
+           <VoxelDog />
            <Container maxW='container.md' pt={14}>
             {children}
            </Container>
