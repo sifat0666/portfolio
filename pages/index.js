@@ -1,22 +1,28 @@
-import { Box, Button, chakra, Container, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Section from '../components/Section'
 import NextLink from 'next/link'
+import {
+  Container,
+  Heading,
+  Box,
+  Button,
+  useColorModeValue,
+  chakra
+} from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/Paragraph'
-import { BioSection, BioYear } from '../components/Bio'
-// import Image from 'next/image'
-
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+// import { GridItem } from '../components/grid-item'
+import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
-const Home: NextPage = () => {
-  return (
-    <div>
+const Home = () => (
+  <Layout>    
       <Container>
+
         <Box 
           borderRadius="lg"
           mb={6}
@@ -118,8 +124,8 @@ const Home: NextPage = () => {
       </Section>
         
       </Container>
-    </div>
-  )
-}
+      </Layout>
+)
 
 export default Home
+export { getServerSideProps } from '../components/chakra'
