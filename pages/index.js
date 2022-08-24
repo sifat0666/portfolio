@@ -92,6 +92,29 @@ const Home = () => (
         </Box>
       </Section>
 
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Skills
+        </Heading>
+        <BioSection>
+          <BioYear>Languages</BioYear>
+          Javascript, Typescript, Python, PHP, C++
+        </BioSection>
+        <BioSection>
+          <BioYear>Web</BioYear>
+          React, Nextjs, node, express, REST API, graphql, apollo
+        </BioSection>
+        <BioSection>
+          <BioYear>Database</BioYear>
+          PostgreSQL, MongoDB, MySQL, Redis
+        </BioSection>
+        <BioSection>
+          <BioYear>Tools</BioYear>
+          Git, Github, Docker, CI/CD
+        </BioSection>
+      </Section>
+
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
