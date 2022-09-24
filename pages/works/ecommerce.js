@@ -10,7 +10,7 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Work = () => (
-    <Layout title="Inkdrop">
+    <Layout title="ecomerce">
       <Container>
         <Title>
           Gadget Store
