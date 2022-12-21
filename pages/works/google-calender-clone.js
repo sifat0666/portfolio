@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article'
 const Work = () => (
   <Layout title="ecomerce">
     <Container>
-      <Title>Gadget Store</Title>
+      <Title>Calender App</Title>
       <P>
         This is a clone of google calender app. You can add events for a date
         with differnet color badges. The events will be saved in the browser

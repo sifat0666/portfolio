@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article'
 const Work = () => (
   <Layout title="ecomerce">
     <Container>
-      <Title>Gadget Store</Title>
+      <Title>ADDA the social-media</Title>
       <P>
         ADDA the social-media is a site to interact with your friends.You can
         post content, like and comment others, Save liked posts, Search for
